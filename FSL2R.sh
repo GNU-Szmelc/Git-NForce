@@ -2,10 +2,20 @@
 
 # Obsidian CLI Szmelc.INC - GitHub Force Sync [Local -> Remote] [L2R]
 
+# Get the directory where the script is located
+script_dir=$(dirname "$0")
+
+# Load the config file into a Bash variable
+config=$(jq -r '.' "$script_dir/config.json")
+
+# Load the data from the config.yml file
+m_name=$(echo "$config" | jq -r '.main.name')
+m_repo=$(echo "$config" | jq -r '.main.repo')
+
 # Define variables for the script
 VAULT_FOLDER="./Obsidian Vault" # Local folder
 SCRIPT_FOLDER="./Shell" # Supplementary scripts.sh
-GITHUB_REPO="git@github.com:serainox420/Obsidian.git" # Target repo
+GITHUB_REPO="git@github.com:$m_name/$m_repo" # Target repo
 
 # Navigate to the script's directory
 cd "$(dirname "$0")"
