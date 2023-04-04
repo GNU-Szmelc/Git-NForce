@@ -1,6 +1,8 @@
 {
   "main": {
     "name": "serainox420",
-    "repo": "Obsidian"
+    "repo": "Obsidian",
+    "path": "Obsidian Vault",
+    "shell": "Shell"
   }
 }
