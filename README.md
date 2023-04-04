@@ -5,7 +5,8 @@
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 ## - `ObsMgr.py` - Obsidian Manager API 
-`ObsMgr.py ~ Operate all .sh scripts in one but fancy CLI`
+`exec.sh` ~ Entry point for szmelc commander.
+`main.py ~ Main command line interface in Python3`
 
 >- `FSL2R.sh` - Force Sync Local 2 Remote 
 >- `FSR2L.sh` - Force Sync Remote 2 Local
