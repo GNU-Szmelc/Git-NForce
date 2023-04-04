@@ -3,9 +3,14 @@ import os
 import threading
 import time
 import shlex
+import sys
 
 # Obsidian Manager API v1 - .py script to manage .sh scripts
 # Define the available options
+
+# cd into own dir
+script_dir = os.path.dirname(os.path.realpath(sys.argv[0]))
+os.chdir(script_dir)
 
 # Fancy CLI
 
