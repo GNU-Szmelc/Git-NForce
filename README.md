@@ -4,7 +4,7 @@
 
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-## - `ObsMgr.py` - Obsidian Manager API 
+## - `Obsidian-Sync` - Obsidian Manager API 
 `exec.sh` ~ Entry point for szmelc commander.\
 `main.py` ~ Main command line interface in Python3
 
