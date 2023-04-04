@@ -2,7 +2,7 @@
 # Default exec.sh main entrypoint
 # Verify szmelc integrity, initialize main.py (or any other language script)
 # Curl manual & Add based loading bar
-
+sudo apt-get install jq
 # Script Dir
 SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
 MAIN_DIR="$SCRIPT_DIR/main.py"
