@@ -1,10 +1,10 @@
-# ░░░░ Obsidian Sync ░░░░
+# ░░░░ Git-NForce ░░░░
 ### - Shmelc.sh Automation shell scripts
->- [Bash] for `Obsidian Vault` on `GitHub`
+>- [Bash] originally `Obisidian-Sync` for `Obsidian Vault` on `GitHub`
 
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-## - `Obsidian-Sync` - Obsidian Manager API 
+## - `Git-NForce` - [GitHub - Local] force synchronizer API 
 `exec.sh` ~ Entry point for szmelc commander.\
 `main.py` ~ Main command line interface in Python3
 
