@@ -16,7 +16,7 @@ os.chdir(script_dir)
 
 print('Initialization...')
 subprocess.Popen('clear', shell=True),'\n',time.sleep(0.5)
-print("░════░════░════░════░════░"),'\n',print("░ MAKE SURE TO CONFIGURE ░"),'\n',print("░ USER VARIABLES IN x.sh ░"),'\n',print("░ BEFORE PROCEEDING      ░"),'\n',print("░════░════░════░════░════░"),'\n',print("")
+print("░════░════░════░════░════░"),'\n',print("░ MAKE SURE TO CONFIGURE ░"),'\n',print("░ USER VARIABLES IN config.json ░"),'\n',print("░ BEFORE PROCEEDING      ░"),'\n',print("░════░════░════░════░════░"),'\n',print("")
 
 print('░░░░░░░░░░░░░░░░░░░░░░░░░░')
 print("░█▀ █░█ █▀▄▀█ █▀▀ █░░ █▀▀░")
